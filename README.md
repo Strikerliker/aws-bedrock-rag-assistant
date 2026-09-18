@@ -23,6 +23,18 @@ flowchart LR
 
 A production deployment can place the Python application behind API Gateway and Lambda, add Cognito authentication, use KMS encryption, private networking where appropriate, and Bedrock Guardrails depending on the use case.
 
+## Visual architecture
+
+### End-to-end RAG flow
+
+![AWS Bedrock RAG Assistant flow chart](docs/aws-bedrock-rag-flow.svg)
+
+### AWS service symbology view
+
+![AWS Bedrock RAG Assistant AWS service architecture](docs/aws-bedrock-rag-aws-architecture.svg)
+
+The first diagram reflects the implemented portfolio flow. The second shows a production-ready reference pattern around that core workflow; WAF, Cognito, API Gateway, Lambda, KMS, and Bedrock Guardrails are optional hardening components rather than claims about the current demo deployment.
+
 ## What this project demonstrates
 
 - Amazon Bedrock Knowledge Bases
