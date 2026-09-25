@@ -33,6 +33,13 @@ A production deployment can place the Python application behind API Gateway and 
 
 ![AWS Bedrock RAG Assistant AWS service architecture](docs/aws-bedrock-rag-aws-architecture.svg)
 
+
+### Microsoft Azure reference architecture
+
+![Microsoft Azure architecture for the RAG Assistant](docs/aws-bedrock-rag-azure-architecture.webp)
+
+This Azure diagram is a reference equivalent for portfolio comparison; the implemented project remains AWS Bedrock-based.
+
 The first diagram reflects the implemented portfolio flow. The second shows a production-ready reference pattern around that core workflow; WAF, Cognito, API Gateway, Lambda, KMS, and Bedrock Guardrails are optional hardening components rather than claims about the current demo deployment.
 
 ## What this project demonstrates
